@@ -17,7 +17,7 @@ set roster_display_filter = ofdna # who to show on the roster list
 set roster_hide_domain = 1        # show the username only
 
 # conference nickname. Not sure if I need this
-set nickname = reyhan
+set nickname = your-username
 
 # no of lines to remember for the command line history
 set cmdhistory_lines = 250
