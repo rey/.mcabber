@@ -1,4 +1,6 @@
-# Sample ~/.mcabber/mcabberrc file
+# username and password
+set jid = you@gmail.com
+set password = your-password 
 
 # server deets
 set server = talk.google.com
