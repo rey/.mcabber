@@ -4,8 +4,16 @@ set password = your-password
 
 # server deets
 set server = talk.google.com
-set port = 5222
-set tls = 1                       # use tls
+
+# ssl works on homebrew mcabber builds
+set port = 5223
+set ssl = 1                       # use ssl
+set ssl_ignore_checks = 1
+
+# tls works on apt-get mcabber builds
+# set port = 5222
+# set tls = 1                       # use tls
+
 
 # priority
 set priority = 4
@@ -27,7 +35,7 @@ set log_win_height = 3  # log window height (minimum 1, default 5)
 #set roster_width=24     # Buddylist window width (minimum 2, default 24)
 
 # positions
-set log_win_on_top = 1        # where to put the log
+set log_win_on_top = 1          # where to put the log
 #set roster_win_on_right = 0   # where to put the roster
 
 # hide client things
@@ -60,7 +68,7 @@ set log_display_presence = 1
 alias online  = status online
 alias away    = status away
 alias busy    = status busy
-alias meeting = meeting
+alias meeting = status meeting
 
 # how quick to react after hitting esc (milliseconds)
 set escdelay = 50
