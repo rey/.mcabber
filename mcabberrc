@@ -85,7 +85,7 @@ set color_rosternewmsg = 195    # fg colour when you get a new message
 set color_readmark     = 235    # divider on a thread where you have unread messages
 
 # per roster colours
-color roster o *@gmail.com 194  # if online then green
+color roster o *@gmail.com 121  # if online then green
 color roster an *@gmail.com 224 # if away/not available then amber
 color roster d *@gmail.com 217  # if dnd then pink
 
