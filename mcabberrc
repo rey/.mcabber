@@ -69,27 +69,27 @@ alias meeting = status meeting
 set escdelay = 50
 
 # colours
-set color_background   = 234    # bg colour of chat and log window
-set color_general      = white  # fg colour of chat and log window
-set color_info         = white  # fg colour of chat window for info messages
-set color_msgin        = white  # fg colour of incoming message
-set color_msgout       = white  # fg colour of outgoing message
-set color_bgstatus     = 26     # bg colour of status bar
-set color_status       = white  # fg colour of status bar
-set color_log          = white  # fg colour of log
-set color_roster       = white  # fg default colour of roster. Probably overwritten below...
-set color_bgrostersel  = 235    # bg colour of selected roster person
-set color_rostersel    = white  # fg colour of selected roster person
-set color_rosterselmsg = 195    # fg colour of selected roster person if theres a new message
-set color_rosternewmsg = 195    # fg colour when you get a new message
-set color_readmark     = 235    # divider on a thread where you have unread messages
+set color_background   =    234     # bg colour of chat and log window
+set color_general      =    015     # fg colour of chat and log window
+set color_info         =    015     # fg colour of chat window for info messages
+set color_msgin        =    015     # fg colour of incoming message
+set color_msgout       =    015     # fg colour of outgoing message
+set color_bgstatus     =    026     # bg colour of status bar
+set color_status       =    015     # fg colour of status bar
+set color_log          =    015     # fg colour of log
+set color_roster       =    015     # fg default colour of roster. Probably overwritten below...
+set color_bgrostersel  =    235     # bg colour of selected roster person
+set color_rostersel    =    015     # fg colour of selected roster person
+set color_rosterselmsg =    195     # fg colour of selected roster person if theres a new message
+set color_rosternewmsg =    195     # fg colour when you get a new message
+set color_readmark     =    235     # divider on a thread where you have unread messages
 
 # per roster colours
-color roster o *@gmail.com 121  # if online then green
-color roster an *@gmail.com 224 # if away/not available then amber
-color roster d *@gmail.com 217  # if dnd then pink
+color roster o  *@gmail.com 121     # if online then green
+color roster an *@gmail.com 224     # if away/not available then amber
+color roster d  *@gmail.com 217     # if dnd then pink
 
-# bidings
+# bindings
 # Ctrl-q (17) bound to /roster unread_next
 bind 17 = roster unread_next
 # Ctrl-x (24) bound to /roster alternate
