@@ -1,7 +1,4 @@
-.mcabber
-========
-
-# My .mcabber stuff
+# .mcabber
 
 ## Get the config
 
